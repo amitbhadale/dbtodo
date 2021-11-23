@@ -15,7 +15,7 @@ const TodoItem = ({ id, name, status, dueDate, deleteTodoDone }) => {
         <div className="todo__status">
           {status ? "Completed" : "not completed"}
         </div>
-        <button onClick={() => deleteTodo(id)}>X</button>
+        <button onClick={() => deleteTodo(id)}>X Delete</button>
       </div>
     </>
   );
